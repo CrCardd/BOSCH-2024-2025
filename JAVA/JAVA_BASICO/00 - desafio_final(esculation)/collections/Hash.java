@@ -1,5 +1,7 @@
 package collections;
 
+import collections.exceptions.CheckedException;
+
 public class Hash<T> extends Origin
 {
     ArrayList<T>[] hash;
@@ -36,14 +38,14 @@ public class Hash<T> extends Origin
             
             for(int i=0; i<hash.length; i++){
                 for(int j=0; j<hash[i].getSize(); j++){
-                    Integer index_copy = Math.abs((hash[i].get(j).hashCode()) % capacity); //Integer index_copy = Math.abs((Integer)hash[i].get(j) % (capacity)) < 0 ? ((Integer)hash[i].get(j) % (capacity)) * -1 : (Integer)hash[i].get(j) % (capacity);
+                    Integer index_copy = Math.abs((hash[i].get(j).hashCode()) % capacity); 
                     copy[index_copy].add(hash[i].get(j));
                 }
             }
             this.hash = copy;
         }
 
-        Integer index = Math.abs(value.hashCode()%(capacity)); //Integer index = (value.hashCode()%(capacity) < 0) ? (value.hashCode()%(capacity)) * -1 : value.hashCode()%(capacity); 
+        Integer index = Math.abs(value.hashCode()%(capacity)); 
         hash[index].add(value);
         this.elements++;
     }
@@ -55,8 +57,15 @@ public class Hash<T> extends Origin
                 return hash[index].get(i);
             }
         }
-
-        // Talvez estourar erro?
-        return null;
+        throw new CheckedException("Indice inválido paizao");
+    }
+    public T getByIndex(Integer value){
+        Integer index = Math.abs(value%capacity);
+        for (int i=0; i<hash[index].getSize(); i++){
+            if(hash[index].get(i).equals(value)){
+                return hash[index].get(i);
+            }
+        }
+        throw new CheckedException("Indice inválido paizao");
     }
 }

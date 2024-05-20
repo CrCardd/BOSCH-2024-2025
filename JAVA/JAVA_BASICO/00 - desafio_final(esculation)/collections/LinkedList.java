@@ -1,5 +1,7 @@
 package collections;
 
+import collections.exceptions.*;
+
 public class LinkedList<T> extends List<T>{
     
     private Node<T> head = null;
@@ -25,28 +27,24 @@ public class LinkedList<T> extends List<T>{
     @Override
     public T get(int index) {
 
-        if (index >= size) {
-            // estoura uma excessão?
-            return null;
+        if (index < size) {
+            // instancia um nó para percorer a lista
+            Node<T> current = head;
+    
+            while (index > 0) {
+                current = current.getNext();
+                index--;
+            }
+    
+            return current.getValue();
         }
-
-        // instancia um nó para percorer a lista
-        Node<T> current = head;
-
-        while (index > 0) {
-            current = current.getNext();
-            index--;
-        }
-
-        return current.getValue();
-
+        throw new CheckedException("Indice inválido po.");
     }
     @Override
     public void set(int index, T value) {
         
-        if (index > size) {
-            // estoura uma excessão
-            return;
+        if (index >= size) {
+            throw new CheckedException("Indice inválido po.");
         }
 
         // instancia um nó para percorer a lista
@@ -60,7 +58,10 @@ public class LinkedList<T> extends List<T>{
         }
 
         current.setValue(value);
-       
+    }
+
+    public Node<T> getHead(){
+        return this.head;
     }
 
 

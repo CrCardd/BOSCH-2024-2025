@@ -1,5 +1,7 @@
 package collections;
 
+import collections.exceptions.CheckedException;
+
 public class Queue<T> extends Origin {
 
     private Node <T>head = null;
@@ -25,8 +27,7 @@ public class Queue<T> extends Origin {
     {
 
         if (this.head == null) {
-            // Estourar erro
-            return null;
+            throw new CheckedException("Fila vazia amigão, sinto muito.");
         }
 
         T aux = head.getValue();
@@ -39,6 +40,9 @@ public class Queue<T> extends Origin {
         return aux;
     }
 
+    public Node<T> getHead(){
+        return this.head;
+    }
 }
 
 

@@ -12,14 +12,14 @@ public class Main {
         LinkedList<Integer> linkedlist = new LinkedList<>();
         Stack<Integer> stack = new Stack<>();
         Queue<Integer> queue = new Queue<>();
-        Hash<String> hash = new Hash<>();
+        Hash<Integer> hash = new Hash<>();
 
-        for(int i = 0; i < DEBUG-5; i++)
+        for(int i = 0; i < DEBUG; i++)
         {
             linkedlist.add(i);
             stack.push(i);
             queue.enqueue(i);
-            hash.add("a"+i);
+            hash.add(i);
         }
 
         // Linked List 
@@ -38,7 +38,7 @@ public class Main {
         //HASH
         System.err.println("\n\nHASH");
         for(int i=0; i<DEBUG; i++){
-            System.out.println(hash.get("a"+i));
+            System.out.println(hash.get(i));
         }
     }
 
