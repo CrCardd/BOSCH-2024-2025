@@ -1,8 +1,11 @@
 package collections;
 
 import collections.exceptions.*;
+import collections.iterator.Iterable;
+import collections.iterator.Iterator;
+import collections.iterator.LinkedListIterator;
 
-public class LinkedList<T> extends List<T>{
+public class LinkedList<T> extends List<T> implements Iterable<T>{
     
     private Node<T> head = null;
     private Node<T> tail = null;
@@ -25,7 +28,7 @@ public class LinkedList<T> extends List<T>{
         tail = newnode;
     }
     @Override
-    public T get(int index) {
+    public T get(int index) throws CheckedException {
 
         if (index < size) {
             // instancia um nó para percorer a lista
@@ -41,7 +44,8 @@ public class LinkedList<T> extends List<T>{
         throw new CheckedException("Indice inválido po.");
     }
     @Override
-    public void set(int index, T value) {
+    
+    public void set(int index, T value) throws CheckedException {
         
         if (index >= size) {
             throw new CheckedException("Indice inválido po.");
@@ -60,9 +64,15 @@ public class LinkedList<T> extends List<T>{
         current.setValue(value);
     }
 
-    public Node<T> getHead(){
+    public Node<T> getHead() {
         return this.head;
     }
-
-
+    @Override
+    public Iterator<T> iterator() {
+        return new LinkedListIterator<T>(this);
+    }
+    @Override
+    public Stream<T> stream() {
+        return new Stream<>(this);
+    }
 }    

@@ -64,8 +64,7 @@ public class ArrayList<T> extends List<T> implements Iterable<T>
 
     @Override
     public Iterator<T> iterator() {
-        ArrayListIterator<T> array = new ArrayListIterator<T>(this);
-        return array;
+        return new ArrayListIterator<T>(this);
     }
 
     @Override

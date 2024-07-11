@@ -1,6 +1,10 @@
 package collections;
 
-public class Stack<T> extends Origin
+import collections.iterator.Iterable;
+import collections.iterator.Iterator;
+import collections.iterator.StackIterator;
+
+public class Stack<T> extends Origin implements Iterable<T>
 {
     private T[] data;
 
@@ -59,5 +63,15 @@ public class Stack<T> extends Origin
         
         return data[size - 1];
 
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new StackIterator<>(this);
+    }
+
+    @Override
+    public Stream<T> stream() {
+        return new Stream<>(this);
     }
 }

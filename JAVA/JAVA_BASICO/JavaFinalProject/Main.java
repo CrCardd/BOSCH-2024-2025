@@ -7,7 +7,7 @@ import collections.iterator.Iterable;
 
 public class Main {
     public static void main(String[] args) {
-        int DEBUG = 210;
+        int DEBUG = 50;
         LinkedList<Integer> linkedlist = new LinkedList<>();
         Stack<Integer> stack = new Stack<>();
         Queue<Integer> queue = new Queue<>();
@@ -19,51 +19,43 @@ public class Main {
             linkedlist.add(i);
             stack.push(i);
             queue.enqueue(i);
-            hash.add(i);
+            hash.add(i,i);
             arraylist.add(i);
         }
 
+
+        Random ran = new Random();
+        @SuppressWarnings("unused")
         Iterable<Integer> iterable = null;
-        for(int i=0; i<5; i++){
-            switch (i){//new Random().nextInt(5)) {
-                case 0:
-                System.err.println("\n\nLINKEDLIST");
+        switch (ran.nextInt(5)) {
+            case 0:
                 iterable = linkedlist;
                 break;
-                case 1:
-                System.err.println("\n\nSTACK");
+            case 1:
                 iterable = stack;
                 break;
-                case 2:
-                System.err.println("\n\nQUEUE");
+            case 2:
                 iterable = queue;
                 break;
-                case 3:
-                System.err.println("\n\nHASH");
+            case 3:
                 iterable = hash;
                 break;
-                default:
-                System.err.println("\n\nARRAYLSIT");
+            default:
+                
                 iterable = arraylist;
                 break;
-            }
-
-            Iterator<Integer> iterator = iterable.iterator();
-            while(iterator.hasNext()){
-                System.err.println(iterator.next());
-            }
         }
-        // Iterable<String> result = iterable
-        //     .stream()
-        //     .map(i -> i.toString())
-        //     .filter(s -> s.length() == 2)
-        //     .collect();
 
-        // System.err.println("\n\n\n");
+        List<Integer> result = iterable
+        .stream()
+        .filter(i -> i < 30)
+        .collect();
 
-        // Iterator<String>iterator = result.iterator();
+        // Iterator<Integer> iterator = result.iterator();
         // while(iterator.hasNext()){
-        //     System.err.println(iterator.next());
-        // }
+        // System.err.println(iterator.next());
+        for(int i=0; i< result.getSize(); i++){
+            System.err.println(result.get(i));
+        }
     }
 }
