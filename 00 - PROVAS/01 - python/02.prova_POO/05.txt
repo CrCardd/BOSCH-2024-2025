@@ -1,0 +1,4 @@
+Uma classe é algo para definir um objeto, o obejto defindo como a classe, terá todos os métodos e atributos dela, mas a classe em si 
+não é o objeto, ou seja, por exemplo uma classe chamada, 'Aluno', é possivel definir infinitos objetos com essa classe, mas cada um 
+deles poderá conter valores próprios e únicos, mesmo que sejam referentes a mesma classe. Uma classe é feita para ter um modelo de objeto,
+onde podemos aplicar ele a quantos objeto desejarmos.

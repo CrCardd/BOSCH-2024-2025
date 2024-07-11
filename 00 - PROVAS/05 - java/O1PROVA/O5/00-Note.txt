@@ -1,0 +1,3 @@
+Herença é definir metodos e atributos em uma classe Mãe, e extender os mesmos a classes filhas, como no exemplo dado,
+a classe 'Person' possui o atributo 'age' e 'name', e as duas classes filhas dela ('Crazy','Liar') também terão acesso direto a eles,
+caso os metodos e atributos estejam definidos como public ou protected.

@@ -1,0 +1,16 @@
+public class O4{
+
+    public static void main(String[] args){
+
+        int worlds = 256;
+
+        for(int i = 1; i <= worlds ; i++){
+            System.out.println("Hello ["+i+"°] World!");
+        }
+    }
+}
+
+
+
+    O encapsulamento é sobre organizar/encapsular, metodos ou atributos, como no exemplo a cima, 'worlds' está encapsulado dentro do método
+estático 'main', e 'System.out.printl("Hello ["+i+"°] World!")' está dentro do 'for'. Tudo isso estando encapsulado dento da classe 'O4'.

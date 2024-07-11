@@ -1,0 +1,13 @@
+Atribuição por valor é quando o valor é atrubuido diretamente, Atribuição por referência é quando o valor é atrubuido
+utilizando a referencia de orientação a objetos, seja diretamente ou através de um set.
+
+EX:
+
+public class Main{
+    public static void main(String[] args){
+        Person pessoa = new Person();
+
+        pessoa.name = "Matheus";
+        pessoa.setName("Matheus");
+    }
+}
