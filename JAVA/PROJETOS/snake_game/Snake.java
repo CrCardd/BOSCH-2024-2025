@@ -8,7 +8,9 @@ public class Snake <T>{
     public Snake(T food){
         this.size = 2;
         this.push(food);
+        this.head.setPositions_yx(2,2);
         this.push(food);
+        this.head.setPositions_yx(2,2);
     }
 
 
@@ -23,6 +25,7 @@ public class Snake <T>{
         }
         this.tail.setNext(new_node);
         new_node.setPrev(this.tail);
+        new_node.setPositions_yx(this.tail.getPosition_y(), this.tail.getPosition_x());
         this.tail = new_node;
     }
 
@@ -37,8 +40,7 @@ public class Snake <T>{
         this.head.updatePosition_y(direction.getPosition_y());
 
         while(current_node.getNext() != null){
-            current_node.getNext().setPosition_x(current_node.getPosition_x());
-            current_node.getNext().setPosition_y(current_node.getPosition_y());
+            current_node.getNext().setPositions_yx(current_node.getPosition_y(),current_node.getPosition_x());
         }
     }
 

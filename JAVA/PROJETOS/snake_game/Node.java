@@ -40,16 +40,13 @@ public class Node <T>{
 
     
     
-    public void setPosition_x(Integer x) {
+    public void setPositions_yx(Integer y, Integer x) {
+        this.position_y = y;
         this.position_x = x;
     }
+
     public void updatePosition_x(Integer add_x) {
         this.position_x +=  add_x;
-    }
-    
-    
-    public void setPosition_y(Integer y) {
-        this.position_y = y;
     }
     public void updatePosition_y(Integer add_y) {
         this.position_y = add_y;
