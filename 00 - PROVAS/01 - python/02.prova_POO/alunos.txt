@@ -1,3 +1,0 @@
-ALUNO: cristian	| IDADE: 16 |	TURMA: 3E |	PLANTA: orquidea
-ALUNO: karlla	| IDADE: 16 |	TURMA: 2E |	PLANTA: erva mate
-ALUNO: jose     | IDADE: 16 |	TURMA: 2D |	PLANTA: mato

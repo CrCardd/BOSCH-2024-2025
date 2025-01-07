@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="box" prefHeight="148.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.LoginSceneController">
+  <children>
+    <MenuBar prefHeight="0.0" prefWidth="640.0" VBox.vgrow="NEVER" />
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="165.0" prefWidth="332.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button id="btLogin" fx:id="btLogin" layoutX="369.0" layoutY="94.0" mnemonicParsing="false" onAction="#submit" text="Entrar" />
+            <Label layoutX="128.0" layoutY="28.0" text="login" />
+            <Label layoutX="125.0" layoutY="61.0" text="Senha" />
+            <TextField id="tfLogin" fx:id="tfLogin" layoutX="193.0" layoutY="24.0" prefHeight="25.0" prefWidth="223.0" promptText="email ou nome de usuário" />
+            <PasswordField id="pfPass" fx:id="pfPass" layoutX="193.0" layoutY="57.0" prefHeight="25.0" prefWidth="223.0" />
+            <Label layoutX="125.0" layoutY="107.0" text="Não tem uma conta?" />
+            <Label layoutX="246.0" layoutY="107.0" onMouseClicked="#CreateAccount" text="Criar uma" textFill="#5f43ff" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

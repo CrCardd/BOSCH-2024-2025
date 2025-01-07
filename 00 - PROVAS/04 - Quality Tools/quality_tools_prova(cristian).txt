@@ -1,0 +1,56 @@
+1 - b) Desempenho
+
+
+2 - No processo de qualidade a confiabilidade é definida como a consistência de um produto ou processo na entrega dos resultados esperados em diferentes condições.
+
+
+3 - A aparência de um produto influência a percepção de qualidade na visão do cliente pois ele irá julgar o estado em que o pedido chegou a ele, então as condições 
+do produto são relevantes, porque por meio disto ele vai criar uma visão de como é o processo e qual a importância que a empresa dá ao cliente.
+
+
+4 - Caractetrísticas acessórias de um produto são como atributos extras, como por exemplo um celular, sua característica acessória poderia ser a capinha, ou então
+um fone de ouvido, são atributos extras, mas não necessários para seu funcionamento. Essas características são importantes porque agregam valor ao produto e 
+satisfazem o cliente.
+
+
+5 - As ferramentas de qualidade podem ajudar na melhoria de processo pois ajudam a visualizar possíveis gargalos, erros e problemas. Com as ferramentas aplicadas
+se torna mais fácil a visualização de onde e porque o erro está occorendo.
+
+
+6 - A ferramente de qualidade fluxograma auxília o entendimento do processo como um todo, mapeando suas etapas e deixando mais fácil de encontrar os problemas que 
+ocorrem.
+
+
+7 - A ferramenta Histograma é utilizada para visualizar dados através de colunas com valores, tornando mais simples a visualização da frequência que ocorrem os 
+determinados problemas.
+
+
+8 - O diagrama de causa e efeito pode ajudar a resolver problemas de qualidade desmembrando o problema maior e procurando por suas causas mais simples de serem
+resolvidas, fazendo assim com que seja mais fácil de solucionar o problema principal.
+
+
+9 - a) Diagrama de causa e efeito
+
+
+10 - A folha de verificação traz com si os benefícios de ter uma tabela sistemática, onde os campos principais são pré-definido. A folha de verificação deixa em 
+aberto a inserção de dados em momentos separados, por exemplo os dias da semana, deste modo seguindo o exemplo dado, com a folha de verificação se torna evidente
+em quais dias da semana determinado problema ocorreu mais ou menos vezes.
+
+
+11 - O gráfico de controle utiliza de três valores, o valor máximo, a média e o valor minímo, com isso é possível monitorar quando um determinado produto ou processo
+ultrapassa algum dos limites pré-definidos, assim gerando um controle maior da estabilidade do processo.
+
+
+12 - a) Diagrama de Pareto
+
+
+13 - O diagrama de dispersão utiliza de duas variáveis para monitorar seu funcionamento, então com base em dois dados cria-se uma informação, e é possível monitorar
+se os produtos os processos se mantém no fluxo normal ou se estão fugindo do resultado esperado.
+
+
+14 -  Para melhorar a qualidade do processo de fabricação de um produto, iniciaria com um fluxograma para compreender suas etapas e analisar se há desperdício de materiais
+ou de tempo em alguma das suas fases. Com a ajuda do gráfico de controle seria possível monitorar a frequência com que o produto tem defeitos, podendo ter um mapeamento 
+mais detalhado de onde o principal defeito está. Após encontrar os problemas dentro do processo utilizaria do diagrama de causa e efeito para procurar as raízes do 
+problema, e assim poder solucionar pequenas coisas que ocasionariam na resolução do problema principal. Aplicando o histograma mediria as causas do problema e quais 
+ocorrem mais vezes. Utilizando do diagrama de Pareto levantaria os dados com base no histograma de onde os erros estão ocorrendo e quantos porcento isso representa do
+problema principal, deste modo descobrindo quais são os problemas que mais necessitam de melhorias com urgência.

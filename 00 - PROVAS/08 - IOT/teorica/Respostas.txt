@@ -1,0 +1,45 @@
+1)
+
+	I     ->  e
+	||    ->   f
+	|||   ->   d
+	IV   ->  b
+	V    ->  c
+	V|    -> a
+
+
+
+
+
+2)
+	
+	F
+	V	
+	V
+	V
+
+
+
+3)
+
+	a) A principal diferença entre a corrente alternada e a corrente contínua é a maneira que a corrente "flui" pelo circuito, enquanto a corrente contínua tem um fluxo constante, a corrente alternada oscila a direção durante seu percurso
+
+	b) ALTERNADA: Distribuição de energia das hidroelétricas para facilitar a circulação de alta tensão, 
+	c) CONTÍNUA:  circuito elétrico de uma casa, cicuito básico em protoboard (ex: jogo do genius)
+
+
+
+
+
+4)
+
+	b) I- Microcontrolador, II- Microprocessador, III- Microcontrolador
+
+
+
+
+
+
+5)
+	a) RAM
+	

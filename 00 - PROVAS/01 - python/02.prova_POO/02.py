@@ -23,7 +23,7 @@ class Livro():
             print('O livro já foi guardado!\n')
 
     def virar_uma_pagina(self):
-        if self.guardado == False and self.pagina_atual<=self.qtd_paginas:
+        if self.guardado == False and self.pagina_atual<self.qtd_paginas:
             self.pagina_atual += 1
             print(f'Página: [{self.pagina_atual}]')
 
