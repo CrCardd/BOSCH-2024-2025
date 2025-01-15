@@ -1,0 +1,93 @@
+nop:
+0000 0000 : 0000 0000
+
+0001 oooo : DDDD SSSS
+D - Destination Register
+S - Source Register
+o - Operation
+{
+    0000 = +
+    0001 = -
+    0010 = *
+    0011 = /
+    0100
+}
+
+
+mov:
+001x DDDD : SSSS SSSS
+x - 0 = Low Byte, 1 = High Byte
+D - Destination Register
+S - Source Immediate 8-bit
+
+var = 257
+
+movl R0, $0x02; 0010 0000 : 0000 0010
+
+R0 = 0x0002; 0000 0000 0000 0010
+
+movh R0, $0x01; 0011 0000 : 0000 0001
+
+R0 = 0x0102; 0000 0001 0000 0010
+____________________________________________
+
+var = -1
+
+movl R0, $0xFF; 0010 0000 : 1111 1111
+
+R0 = 0x00FF; 0000 0000 1111 1111
+
+movh R0, $0xFF; 0011 0000 : 1111 1111
+
+R0 = 0xFFFF; 1111 1111 1111 1111
+____________________________________________
+
+mov:
+0100 00xx : DDDD SSSS
+
+D - Destination Register
+S - Source Register
+x - mode
+{
+    00 - mov %S, %D; D = S;
+    10 - mov (%S), %D; D = *S;
+    11 - mov %S, (%D); *D = S;
+}
+_____________________________________________
+
+cmp:
+
+0100 0100 : AAAA BBBB
+
+FLAGS Register = Z-0(é zero) S-0(tem sinal)
+
+A > B = Z-0, S-0
+A = B = Z-1, S-0
+A < B = Z-0, S-1
+____________________________________________
+
+jmp:
+
+0100 1ccc : oooo oooo
+
+c - Condition
+{
+    001 - jl (<)
+    010 - jg (>)
+    011 - jne (not equal) > < !=
+    100 - je (equal) =
+    101 - jle (<=)
+    110 - jge >=
+    111 - jmp (sem condição, sempre pula)
+}
+
+o - offset 8-bit com sinal
+
+0101 0ccc : 0000 DDDD
+
+D - Destination
+____________________________________________
+
+push:
+
+0110 0000 : 0000 RRRR
