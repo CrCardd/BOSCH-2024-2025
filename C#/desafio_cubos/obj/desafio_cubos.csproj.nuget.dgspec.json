@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crisr\\Desktop\\vscode\\desafio_cubos\\desafio_cubos.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\CR\\repos\\BOSCH-2024-2025\\C#\\desafio_cubos\\desafio_cubos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crisr\\Desktop\\vscode\\desafio_cubos\\desafio_cubos.csproj": {
+    "C:\\Users\\disrct\\Desktop\\CR\\repos\\BOSCH-2024-2025\\C#\\desafio_cubos\\desafio_cubos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crisr\\Desktop\\vscode\\desafio_cubos\\desafio_cubos.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\CR\\repos\\BOSCH-2024-2025\\C#\\desafio_cubos\\desafio_cubos.csproj",
         "projectName": "desafio_cubos",
-        "projectPath": "C:\\Users\\crisr\\Desktop\\vscode\\desafio_cubos\\desafio_cubos.csproj",
-        "packagesPath": "C:\\Users\\crisr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crisr\\Desktop\\vscode\\desafio_cubos\\obj\\",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\CR\\repos\\BOSCH-2024-2025\\C#\\desafio_cubos\\desafio_cubos.csproj",
+        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\CR\\repos\\BOSCH-2024-2025\\C#\\desafio_cubos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\crisr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

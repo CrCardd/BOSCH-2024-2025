@@ -1,0 +1,9 @@
+# Left, 	Right, 	Up, 		Down, 	Front, 	Back
+Red, 	Yellow,	Blue,	Blue,	Green,	Blue   
+Red, 	Yellow,	Blue,	Green,	Green,	Red
+Green, 	Green,	Yellow,	Blue,	Yellow,	Red
+Red,	Green,	Red,	Yellow,	Blue,	Blue
+
+
+
+
