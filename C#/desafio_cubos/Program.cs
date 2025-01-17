@@ -29,7 +29,7 @@ void banana (List<Cube> cubes, int index, StreamWriter writer)
         if(!can)
             continue;
        
-
+        Count.count++;
 
         if(index < cubes.Count-1)
             banana(cubes, index + 1, writer);
@@ -91,6 +91,7 @@ while(line != null)
 StreamWriter writer = new StreamWriter("Solutions.txt");
 
 banana(cubes, 0, writer);
+Console.WriteLine(Count.count);
 
 writer.Close();
 
