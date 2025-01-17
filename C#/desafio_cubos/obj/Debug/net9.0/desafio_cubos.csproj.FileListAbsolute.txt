@@ -1,0 +1,14 @@
+C:\Users\crisr\Desktop\vscode\desafio_cubos\bin\Debug\net9.0\desafio_cubos.exe
+C:\Users\crisr\Desktop\vscode\desafio_cubos\bin\Debug\net9.0\desafio_cubos.deps.json
+C:\Users\crisr\Desktop\vscode\desafio_cubos\bin\Debug\net9.0\desafio_cubos.runtimeconfig.json
+C:\Users\crisr\Desktop\vscode\desafio_cubos\bin\Debug\net9.0\desafio_cubos.dll
+C:\Users\crisr\Desktop\vscode\desafio_cubos\bin\Debug\net9.0\desafio_cubos.pdb
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.AssemblyInfoInputs.cache
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.AssemblyInfo.cs
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.csproj.CoreCompileInputs.cache
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.dll
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\refint\desafio_cubos.dll
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.pdb
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\desafio_cubos.genruntimeconfig.cache
+C:\Users\crisr\Desktop\vscode\desafio_cubos\obj\Debug\net9.0\ref\desafio_cubos.dll
