@@ -1,0 +1,5 @@
+C:\Users\disrct\Desktop\CR\vstemp\csPatiteternmatch\obj\Debug\net9.0\csPatiteternmatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\CR\vstemp\csPatiteternmatch\obj\Debug\net9.0\csPatiteternmatch.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\CR\vstemp\csPatiteternmatch\obj\Debug\net9.0\csPatiteternmatch.AssemblyInfo.cs
+C:\Users\disrct\Desktop\CR\vstemp\csPatiteternmatch\obj\Debug\net9.0\csPatiteternmatch.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\CR\vstemp\csPatiteternmatch\obj\Debug\net9.0\csPatiteternmatch.sourcelink.json
