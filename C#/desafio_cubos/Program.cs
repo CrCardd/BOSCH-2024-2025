@@ -14,6 +14,7 @@ void banana (List<Cube> cubes, int index, StreamWriter writer)
         cubes[index].rotate(x / 4, x % 4);
         
         bool can = true;
+        Count.count++;
         for(int cmp = index-1; cmp >= 0; cmp--)
             if(
                 cubes[index].front == cubes[cmp].front ||
@@ -29,7 +30,6 @@ void banana (List<Cube> cubes, int index, StreamWriter writer)
         if(!can)
             continue;
        
-        Count.count++;
 
         if(index < cubes.Count-1)
             banana(cubes, index + 1, writer);

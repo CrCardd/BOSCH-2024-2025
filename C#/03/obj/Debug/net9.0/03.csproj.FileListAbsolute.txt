@@ -1,0 +1,14 @@
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.GeneratedMSBuildEditorConfig.editorconfig
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.AssemblyInfoInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.AssemblyInfo.cs
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.csproj.CoreCompileInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\bin\Debug\net9.0\03.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\bin\Debug\net9.0\03.deps.json
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\bin\Debug\net9.0\03.runtimeconfig.json
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\bin\Debug\net9.0\03.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\bin\Debug\net9.0\03.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\refint\03.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\03.genruntimeconfig.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\5 - Aprendizes\2 - Desenvolvimento de Sistemas\5 - Soluções Digitais 2024\Cristian Cardoso\17 - C#\03\obj\Debug\net9.0\ref\03.dll

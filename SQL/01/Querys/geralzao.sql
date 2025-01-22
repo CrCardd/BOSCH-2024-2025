@@ -28,11 +28,11 @@ INSERT INTO GradeSalarial VALUES
 
 INSERT INTO Funcionario VALUES
 (92890148, 'Edna Carvalho', 'Andrea', '1990-02-24', 19000, 1),
-(92790062, 'João Manfredo', 'Andrea', '2001-09-26', 12500, 1),
-(91004090, 'Débora Junior', 'Andrea', '1999-03-02', 15600, 1),
+(92790062, 'Joï¿½o Manfredo', 'Andrea', '2001-09-26', 12500, 1),
+(91004090, 'Dï¿½bora Junior', 'Andrea', '1999-03-02', 15600, 1),
 (94566222, 'Carla Rodrigues', 'Andrea', '1990-10-04', 20000, 1),
 (96334100, 'Maciel Oliveira', 'Andrea', '1995-12-06', 16500, 1),
-(97885245, 'Guilherme Gonçalves', 'Marcos', '2010-05-13', 9000, 2),
+(97885245, 'Guilherme Gonï¿½alves', 'Marcos', '2010-05-13', 9000, 2),
 (92894706, 'Jessica Lima', 'Marcos', '2015-08-14', 25678, 2),
 (91450032, 'Isabella Machado', 'Marcos', '1993-01-22', 10900, 2),
 (94661932, 'Carlo Daniel', 'Lucio', '1990-01-31', 13750, 2),
@@ -45,8 +45,8 @@ INSERT INTO Funcionario VALUES
 (98462157, 'Lorena Ray', 'Pietra', '2017-02-25', 1900, 3),
 (95482340, 'Natanael Brasil', 'Pietra', '2020-06-03', 3500, 3),
 (96314782, 'Ana Mass', 'Captu', '1997-02-19', 3600, 4),
-(97854318, 'Otávio Luis', 'Captu', '2017-05-19', 9200, 4),
-(94862122, 'Luisa Otávia', 'Captu', '2002-11-11', 10500, 4),
+(97854318, 'Otï¿½vio Luis', 'Captu', '2017-05-19', 9200, 4),
+(94862122, 'Luisa Otï¿½via', 'Captu', '2002-11-11', 10500, 4),
 (97864320, 'Lucas Moura', 'Captu', '1990-08-29', 6600, 4),
 (96315782, 'Fernanda Lacerda', 'Captu', '1999-12-17', 2900, 4),
 (97546210, 'Caroline Adeus', 'Captu', '2018-02-19', 4555, 4),
@@ -63,9 +63,9 @@ INSERT INTO Funcionario VALUES
 --_____________QUESTAO_4
 SELECT 
 	D.Nome,
-	MAX(F.Salario) 'Maior salário',
-	MIN(F.Salario) 'Menor salário',
-	ROUND(SUM(F.Salario)/COUNT(F.Salario),2) 'Média salarial' 
+	MAX(F.Salario) 'Maior salï¿½rio',
+	MIN(F.Salario) 'Menor salï¿½rio',
+	ROUND(SUM(F.Salario)/COUNT(F.Salario),2) 'Mï¿½dia salarial' 
 
 FROM Funcionario F
 INNER JOIN Departamento D ON D.Departamento = F.Departamento
@@ -84,7 +84,7 @@ AS
 	(
 		SELECT 
 			D.Nome 'Departamento',
-			COUNT(F.Salario) 'Quantidade de funcionários'
+			COUNT(F.Salario) 'Quantidade de funcionï¿½rios'
 
 		FROM Funcionario F
 		INNER JOIN Departamento D ON D.Departamento = F.Departamento
